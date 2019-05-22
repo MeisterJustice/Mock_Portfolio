@@ -1,0 +1,48 @@
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#main-header .port-item {
+  width: 25%;
+}
+
+#main-header .social {
+  cursor: pointer;
+}
+
+#main-header .social:hover {
+  opacity: 0.8;
+}
+
+#main-header .port-item .fa {
+  font-size: 1.3em;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 4em !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  #main-header .port-item .fa {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  #main-header .port-item .fa {
+    font-size: 15px;
+  }
+}
