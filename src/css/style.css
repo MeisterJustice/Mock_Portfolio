@@ -29,6 +29,10 @@
   cursor: pointer;
 }
 
+#main-header .port-item {
+  border-bottom: none;
+}
+
 @media (min-width: 1199px) {
   .port-item {
     padding: 4em !important;
